@@ -1,0 +1,10 @@
+﻿<xapCache source="F:\Windows Phone\Theremin\Theremin\Bin\Debug\Theremin.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2013/3/31 20:00:17">
+  <file source="F:\Windows Phone\Theremin\Theremin\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2013/2/1 15:30:00" />
+  <file source="F:\Windows Phone\Theremin\Theremin\Background.png" archivePath="Background.png" lastWriteTime="2013/3/26 17:21:51" />
+  <file source="F:\Windows Phone\Theremin\Theremin\ApplicationIcon.jpg" archivePath="ApplicationIcon.jpg" lastWriteTime="2013/2/1 14:50:51" />
+  <file source="F:\Windows Phone\Theremin\Theremin\obj\Debug\Theremin.dll" archivePath="Theremin.dll" lastWriteTime="2013/3/31 20:00:17" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="2011/8/29 22:49:08" />
+  <file source="F:\Windows Phone\Theremin\Theremin\Bin\Debug\WPScadaControlsV2.dll" archivePath="WPScadaControlsV2.dll" lastWriteTime="2011/4/9 12:10:04" />
+  <file source="F:\Windows Phone\Theremin\Theremin\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="2013/2/1 15:28:44" />
+  <file source="F:\Windows Phone\Theremin\Theremin\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2013/3/26 12:58:12" />
+</xapCache>

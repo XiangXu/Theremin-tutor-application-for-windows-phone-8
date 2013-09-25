@@ -1,0 +1,13 @@
+F:\Windows Phone\Theremin\Theremin\Bin\Debug\Theremin.dll
+F:\Windows Phone\Theremin\Theremin\Bin\Debug\Theremin.pdb
+F:\Windows Phone\Theremin\Theremin\Bin\Debug\AppManifest.xaml
+F:\Windows Phone\Theremin\Theremin\Bin\Debug\Theremin.xap
+F:\Windows Phone\Theremin\Theremin\obj\Debug\App.g.i.cs
+F:\Windows Phone\Theremin\Theremin\obj\Debug\MainPage.g.i.cs
+F:\Windows Phone\Theremin\Theremin\obj\Debug\Theremin.g.resources
+F:\Windows Phone\Theremin\Theremin\obj\Debug\Theremin.dll
+F:\Windows Phone\Theremin\Theremin\obj\Debug\Theremin.pdb
+F:\Windows Phone\Theremin\Theremin\obj\Debug\XapCacheFile.xml
+F:\Windows Phone\Theremin\Theremin\Bin\Debug\Microsoft.Phone.Controls.dll
+F:\Windows Phone\Theremin\Theremin\Bin\Debug\Microsoft.Phone.Controls.xml
+F:\Windows Phone\Theremin\Theremin\obj\Debug\Theremin.csprojResolveAssemblyReference.cache

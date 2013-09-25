@@ -1,0 +1,5 @@
+F:\Windows Phone\Theremin\PhoneClassLibrary1\Bin\Debug\PhoneClassLibrary1.dll
+F:\Windows Phone\Theremin\PhoneClassLibrary1\Bin\Debug\PhoneClassLibrary1.pdb
+F:\Windows Phone\Theremin\PhoneClassLibrary1\obj\Debug\PhoneClassLibrary1.g.resources
+F:\Windows Phone\Theremin\PhoneClassLibrary1\obj\Debug\PhoneClassLibrary1.dll
+F:\Windows Phone\Theremin\PhoneClassLibrary1\obj\Debug\PhoneClassLibrary1.pdb

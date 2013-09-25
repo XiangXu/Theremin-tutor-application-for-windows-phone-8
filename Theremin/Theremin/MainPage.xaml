@@ -1,0 +1,57 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Theremin.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:scada="clr-namespace:WPScadaControlsV2;assembly=WPScadaControlsV2"
+    xmlns:loc="clr-namespace:Theremin"
+    mc:Ignorable="d" FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" d:DesignHeight="768" d:DesignWidth="480" BorderBrush="Transparent">
+    <!--LayoutRoot 是放置所有頁面的根資料格-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel 包含應用程式的名稱和頁面標題-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="Theremiin Tutor" Style="{StaticResource PhoneTextNormalStyle}"/>
+
+        </StackPanel>
+
+        <!--ContentPanel - 其他內容置於此-->
+        <Grid x:Name="ContentPanel" Margin="10,10,0,0">
+            <Grid.Background>
+                <ImageBrush ImageSource="images.jpg" Stretch="UniformToFill" />
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="663*" />
+                <RowDefinition Height="95" />
+            </Grid.RowDefinitions>
+            <scada:RadialScale x:Name="scale" RangeThickness="10" MinorTickStep="10" MajorTickStep="100" Maximum="2000"
+                               MinAngle="-90" MaxAngle="180" EnableLabelRotation="False" UseRangeColorsForTicks="True" Margin="0,-172,6,0" Grid.RowSpan="2">
+                <scada:RadialScale.Children>
+                </scada:RadialScale.Children>
+                <scada:NeedleIndicator x:Name="needle" Background="#FFFF7600" Value="{Binding ElementName=slider2,Path=Value}" />
+                <scada:RadialScale.Ranges>
+                    <scada:GaugeRange Color="White" Offset="500"/>
+                    <scada:GaugeRange Color="Yellow" Offset="1000"/>
+                    <scada:GaugeRange Color="Blue" Offset="1500"/>
+                    <scada:GaugeRange Color="Red" Offset="2000"/>
+                </scada:RadialScale.Ranges>
+            </scada:RadialScale>
+            
+            <TextBlock Height="46" HorizontalAlignment="Left" Margin="19,560,0,74" Name="textBlock1" Text="Current note: " VerticalAlignment="Center" Width="188" FontSize="28" Foreground="White" />
+            <TextBlock Height="46" HorizontalAlignment="Right" Margin="0,560,85,74" Name="Notes"  VerticalAlignment="Center" Width="149" FontSize="36" />
+            <Button Content="Start" Height="72" HorizontalAlignment="Left" Margin="7,663,0,0" Name="Record_Click" VerticalAlignment="Top" Width="160" Grid.RowSpan="2" Click="Record_Click_Click" Background="Transparent" BorderBrush="White" />
+            <Button Content="Stop" Height="72" HorizontalAlignment="Left" Margin="303,663,0,0" Name="Stop_Click" VerticalAlignment="Top" Width="160" Grid.RowSpan="2" Click="Stop_Click_Click" />
+            <TextBlock Height="48" HorizontalAlignment="Left" Margin="7,397,0,0" Name="CurrentFrequency" Text="" VerticalAlignment="Top" Width="200" />
+            <TextBlock Height="47" HorizontalAlignment="Left" Margin="6,358,0,0" Name="textBlock2" Text="Current Frequency:" VerticalAlignment="Top" Width="201" FontSize="20" />
+        </Grid>
+    </Grid>
+</phone:PhoneApplicationPage>
